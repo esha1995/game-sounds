@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5EB53EA1-D26C-4E84-B51C-7E5343895115}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5EB53EA1-D26C-4E84-B51C-7E5343895115}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ESM_One_Shot_Apocalyptic_Game_User_Interface_General_Click_5" ID="{07DE63C8-E831-4269-BDBB-0BBC3C2978AB}" ShortID="401218745">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-710</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{FF3A886B-677E-42B6-8DF1-1153D82C11AF}" ShortID="480531930">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="paremeter_pitch" ID="{90796521-CE80-427F-8339-E626BA8677BB}" WorkUnitID="{E4DE3F1F-FC0F-480E-B737-045C6631C02E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1B721F06-E025-45E6-B52E-4ABA9C3F1F3E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-4800</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>36.46209</XPos>
+												<YPos>-948</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>4800</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3484B618-3247-4FA7-B9C1-373F717FDE99}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A54857E-2DFC-495D-8A2E-2B1DCBEB6DAB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ESM_One_Shot_Apocalyptic_Game_User_Interface_General_Click_5" ID="{998E1DBA-0812-49E9-A316-5354CADBED12}">
+							<Language>SFX</Language>
+							<AudioFile>ESM_One_Shot_Apocalyptic_Game_User_Interface_General_Click_5.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="92900174"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ESM_One_Shot_Apocalyptic_Game_User_Interface_General_Click_5" ID="{998E1DBA-0812-49E9-A316-5354CADBED12}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

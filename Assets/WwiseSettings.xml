@@ -8,9 +8,15 @@
   <CreateWwiseListener>true</CreateWwiseListener>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
+<<<<<<< HEAD
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.0.7575</WwiseInstallationPathWindows>
   <WwiseProjectPath>../game-sounds_WwiseProject/game-sounds_WwiseProject.wproj</WwiseProjectPath>
+=======
+  <WwiseInstallationPathMac>/Volumes/SSD/Wwise 2021.1.0.7575/Wwise.app</WwiseInstallationPathMac>
+  <WwiseInstallationPathWindows />
+  <WwiseProjectPath>../P4 - Game sound_WwiseProject/P4 - Game sound_WwiseProject.wproj</WwiseProjectPath>
+>>>>>>> 456143de4c484321c5b1370cacad90e6239c5021
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>

@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	865777044	event_move_click			\Default Work Unit\event_move_click	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	19010337	paremeter_pitch			\Default Work Unit\paremeter_pitch	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	92900174	ESM_One_Shot_Apocalyptic_Game_User_Interface_General_Click_5	Z:\Volumes\SSD\P4 - Game sound\P4 - Game sound_WwiseProject\.cache\Mac\SFX\ESM_One_Shot_Apocalyptic_Game_User_Interface_General_Click_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ESM_One_Shot_Apocalyptic_Game_User_Interface_General_Click_5		85120
+

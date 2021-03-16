@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/emilhansen/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/SSD/P4 - Game sound/P4 - Game sound_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/emilhansen/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/SSD/P4 - Game sound/P4 - Game sound_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/emilhansen/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/SSD/P4 - Game sound/P4 - Game sound_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/emilhansen/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/SSD/P4 - Game sound/P4 - Game sound_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1077171736">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1304607774">
+			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="865777044" Name="event_move_click" ObjectPath="\Events\Default Work Unit\event_move_click" DurationType="OneShot" DurationMin="0.667595" DurationMax="0.667595">
+					<IncludedMemoryFiles>
+						<File Id="92900174" Language="SFX">
+							<ShortName>ESM_One_Shot_Apocalyptic_Game_User_Interface_General_Click_5.wav</ShortName>
+							<Path>SFX/ESM_One_Shot_Apocalyptic_Game_User_Interface_General_Click_5_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="19010337" Name="paremeter_pitch" ObjectPath="\Game Parameters\Default Work Unit\paremeter_pitch"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

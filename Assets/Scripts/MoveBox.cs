@@ -18,21 +18,25 @@ public class MoveBox : MonoBehaviour
     {
         if (Input.GetKeyDown("d"))
         {
+            AkSoundEngine.PostEvent("event_move_click", this.gameObject);
             xpos++;
             TransformExtentions.SetX(movement, xpos);
         }
         if (Input.GetKeyDown("a"))
         {
+            AkSoundEngine.PostEvent("event_move_click", this.gameObject);
             xpos--;
             TransformExtentions.SetX(movement, xpos);
         }
         if (Input.GetKeyDown("w"))
         {
+            AkSoundEngine.PostEvent("event_move_click", this.gameObject);
             ypos++;
             TransformExtentions.SetY(movement, ypos);
         }
         if (Input.GetKeyDown("s"))
         {
+            AkSoundEngine.PostEvent("event_move_click", this.gameObject);
             ypos--;
             TransformExtentions.SetY(movement, ypos);
         }

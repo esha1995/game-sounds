@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3FF1D776-E5F9-4842-A45A-A0A212F592B8}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3FF1D776-E5F9-4842-A45A-A0A212F592B8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="event_move_click" ID="{F8E7920A-2300-4FC9-A3D7-AD42B9C54C32}">
+					<ChildrenList>
+						<Action Name="" ID="{263D5188-27F8-4642-82FF-5357C7841FCF}" ShortID="263988458">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ESM_One_Shot_Apocalyptic_Game_User_Interface_General_Click_5" ID="{07DE63C8-E831-4269-BDBB-0BBC3C2978AB}" WorkUnitID="{5EB53EA1-D26C-4E84-B51C-7E5343895115}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
