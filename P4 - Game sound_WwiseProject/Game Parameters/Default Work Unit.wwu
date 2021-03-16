@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{E4DE3F1F-FC0F-480E-B737-045C6631C02E}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="paremeter_pitch" ID="{90796521-CE80-427F-8339-E626BA8677BB}"/>
+				<GameParameter Name="parameter_volume" ID="{75BC8CB7-4854-401E-9598-EB8699FAA763}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

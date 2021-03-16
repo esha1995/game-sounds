@@ -43,7 +43,6 @@ public class MoveBox : MonoBehaviour
     }
 
 }
-
 public static class TransformExtentions
 {
     public static void SetX(this Transform transform, float x)

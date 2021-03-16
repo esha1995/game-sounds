@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2984168418">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1468821137">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1304607774">
+		<SoundBank Id="3161908922" Language="SFX" Hash="548741399">
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
@@ -32,6 +32,7 @@
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="19010337" Name="paremeter_pitch" ObjectPath="\Game Parameters\Default Work Unit\paremeter_pitch"/>
+				<GameParameter Id="1117476031" Name="parameter_volume" ObjectPath="\Game Parameters\Default Work Unit\parameter_volume"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
