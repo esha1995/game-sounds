@@ -18,8 +18,8 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID PARAMETER_VOLUME = 1117476031U;
         static const AkUniqueID PAREMETER_PITCH = 19010337U;
-        static const AkUniqueID PITCH = 1908158473U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

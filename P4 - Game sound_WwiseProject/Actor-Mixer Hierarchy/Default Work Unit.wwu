@@ -41,6 +41,34 @@
 								</RTPC>
 							</RTPCList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{F9DB5622-05F5-47D4-A76B-A589873E43F8}" ShortID="806125494">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="parameter_volume" ID="{75BC8CB7-4854-401E-9598-EB8699FAA763}" WorkUnitID="{E4DE3F1F-FC0F-480E-B737-045C6631C02E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1347EB34-7E61-4188-B0AB-B716C028CEF4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
